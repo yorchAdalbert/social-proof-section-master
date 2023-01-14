@@ -1,0 +1,21 @@
+@use '../abstract/colors' as *;
+
+.rating__container {
+    background-color: $lig-grayish-magenta;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+
+    .stars {
+        display: flex;
+        justify-content: space-between;
+
+        width: 35%;
+        margin: auto;
+        padding: .9em 0;
+    }
+
+    p {
+        padding-bottom: .9em;
+    }
+
+}

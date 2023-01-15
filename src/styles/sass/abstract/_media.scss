@@ -1,0 +1,56 @@
+@media (min-width: 880px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .review {
+
+        .review__content {
+            width: 38%;
+
+            .review__title {
+                font-size: 3.5rem;
+            }
+
+            h1,
+            p {
+                text-align: left;
+            }
+        }
+
+        .review__ratings {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .rating__container {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                padding: 1.5em;
+
+                p {
+                    font-size: 1.3rem;
+                    margin-left: 1em;
+                    padding: 0;
+                }
+            }
+
+            .stars {
+                width: 22%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .center {
+        align-self: center;
+    }
+
+    .right {
+        align-self: flex-end;
+    }
+}

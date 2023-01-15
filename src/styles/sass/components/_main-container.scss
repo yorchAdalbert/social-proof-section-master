@@ -1,3 +1,6 @@
+@use '../abstract/media';
+
 .reviews__container {
     width: 90%;
+    max-width: 70rem;
 }

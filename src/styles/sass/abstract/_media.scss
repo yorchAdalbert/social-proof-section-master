@@ -29,20 +29,30 @@
                 display: flex;
                 align-items: center;
                 width: 80%;
-                padding: 1.5em;
+                padding: .9em;
 
                 p {
-                    font-size: 1.3rem;
                     margin-left: 1em;
                     padding: 0;
                 }
             }
 
             .stars {
-                width: 22%;
+                width: 27%;
                 margin: 0;
                 padding: 0;
             }
+        }
+    }
+
+    .review__cards {
+        display: flex;
+        min-height: 17em;
+        margin-top: 2em;
+        gap: 2em;
+
+        .user__card {
+            max-height: 13em;
         }
     }
 
@@ -51,6 +61,14 @@
     }
 
     .right {
+        align-self: flex-end;
+    }
+
+    .center--vertical {
+        align-self: center;
+    }
+
+    .right--vertical {
         align-self: flex-end;
     }
 }

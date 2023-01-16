@@ -29,6 +29,10 @@ body {
   align-items: center;
   min-height: 100vh;
   font-size: 0.9375rem;
+  background: url(../../../img/bg-pattern-top-mobile.svg), url(../../../img/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 100%, 100%;
 }
 
 h1,
@@ -108,6 +112,15 @@ p {
 }
 
 @media (min-width: 880px) {
+  body {
+    background: url(../../../img/bg-pattern-top-desktop.svg), url(../../../img/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 38%, 60%;
+  }
+  .review__container {
+    margin: 0;
+  }
   .container {
     display: flex;
     justify-content: space-between;

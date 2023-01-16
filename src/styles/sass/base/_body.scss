@@ -4,4 +4,11 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: .9375rem;
+    background: url(../../../img/bg-pattern-top-mobile.svg), url(../../../img/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 100%, 100%;
+    // background-position: left top, left bottom;
+    // background-size: 50%, cover;
+
 }

@@ -1,4 +1,14 @@
 @media (min-width: 880px) {
+    body {
+        background: url(../../../img/bg-pattern-top-desktop.svg), url(../../../img/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+        background-size: 38%, 60%;
+    }
+
+    .review__container {
+        margin: 0;
+    }
 
     .container {
         display: flex;
